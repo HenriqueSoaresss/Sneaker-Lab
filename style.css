@@ -1,0 +1,1726 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  height: 2480px;
+  background-color: #ffffff;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.header-pequeno {
+  width: 100%;
+  background-color: #DCD0C0;
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-pequeno h2 {
+  font-size: 12px;
+  color: #3A332D;
+  font-family: "Rubik", sans-serif;
+  font-weight: 100;
+  margin-left: 60px;
+}
+
+.header-pequeno p {
+  font-size: 12px;
+  color: #3A332D;
+  font-family: "Rubik", sans-serif;
+  font-weight: 100;
+  margin-right: 56px;
+}
+
+.header-normal {
+  background-color: #FBF9F6;
+  width: 100%;
+  height: 126px;
+  margin-top: -15px;
+}
+
+
+.parte-cima h2 {
+  font-family: "Rubik Glitch", system-ui;
+  margin-top: 15px;
+  padding-top: 15px;
+  color: #3A332D;
+  text-align: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #eee8e1;
+  border-radius: 4px;
+  padding: 0 8px;
+  width: 170px;
+  height: 28px;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+  margin-left: 77%;
+  position: relative;
+  top: -47px;
+
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 11px;
+  color: #333;
+  width: 100%;
+  height: 100%;
+  line-height: 28px;
+
+}
+
+.search-bar svg {
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+  fill: #000;
+  flex-shrink: 0;
+}
+
+.icon-container {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  top: -82px;
+  margin-left: 90.9%;
+}
+
+
+.icon-container svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: #333;
+  stroke-width: 2;
+  cursor: pointer;
+  transition: stroke 0.3s;
+}
+
+.icon-container svg:hover {
+  fill: #E80000;
+  transition: 0.4s;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 1000;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: color 0.3s;
+  margin-top: -74px;
+  height: 20px;
+}
+
+.menu-link:hover {
+  color: #E80000;
+}
+
+#active {
+  color: #E80000;
+}
+
+.header-red {
+  background-color: #E80000;
+  width: 100%;
+  height: 41px;
+  display: flex;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.header-red p {
+  margin-top: 8px;
+  margin-right: 210px;
+}
+
+.compre-agora {
+  margin-top: 8px;
+  text-decoration: underline;
+}
+
+.strong {
+  text-decoration: underline;
+}
+
+.img-sale {
+  width: 100%;
+}
+
+.divisao {
+  height: 45px;
+  width: 100%;
+  background-color: #000;
+  margin-top: -4px;
+}
+
+
+.div-cinza {
+  width: 100%;
+  height: 330px;
+  background-color: #3A332D;
+  margin-top: -30px;
+}
+
+.div-branca {
+  width: 100%;
+  height: 277px;
+  background-color: #FBF9F6;
+  z-index: -2;
+}
+
+.div-cinza h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 35px;
+  margin-left: 30px;
+  position: relative;
+  top: 25px;
+}
+
+.retangulo-tenis {
+  height: 20%;
+  background-color: transparent;
+  margin-left: 0px;
+  margin-top: 80.5px;
+  display: flex;
+}
+
+.puma {
+  width: 25%;
+  height: 208.5px;
+  background-color: #C45E5E;
+  text-decoration: none;
+}
+
+.tenis-puma {
+  width: 378.67px;
+  height: 284px;
+  margin-left: -30px;
+  margin-top: -50px;
+}
+
+.puma h4 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: -67px;
+  text-decoration: none;
+}
+
+.puma h6 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: -15px;
+
+}
+
+.puma p {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: -30px;
+}
+
+.logo {
+  margin-left: 3px;
+}
+
+.retangulo-tenis2 {
+  height: 20%;
+  background-color: transparent;
+  margin-left: 3px;
+  display: flex;
+}
+
+.new-balance {
+  width: 90%;
+  height: 208.5px;
+  background-color: #D5CEBA;
+
+}
+
+.tenis-new {
+  width: 378.67px;
+  height: 284px;
+  margin-left: -30px;
+  margin-top: -50px;
+}
+
+.new-balance h4 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: -67px;
+}
+
+.new-balance h6 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.new-balance p {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: -30px;
+}
+
+.retangulo-tenis3 {
+  height: 20%;
+  background-color: transparent;
+  margin-left: -32px;
+}
+
+.adidas {
+  width: 90%;
+  height: 208.5px;
+  background-color: #CFB3A8;
+}
+
+.tenis-adidas {
+  width: 378.67px;
+  height: 284px;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.adidas h4 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: -67px;
+}
+
+.adidas h6 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.adidas p {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: -30px;
+}
+
+.div-branca a {
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  position: relative;
+  top: 230px;
+  text-decoration: none;
+  color: #000;
+  margin-left: 30px;
+}
+
+.retangulo-tenis4 {
+  height: 20%;
+  background-color: transparent;
+  margin-left: -31.9px;
+}
+
+.nike {
+  width: 90%;
+  height: 208.5px;
+  background-color: #D3D4C7;
+}
+
+.tenis-nike {
+  width: 378.67px;
+  height: 284px;
+  margin-left: -30px;
+  margin-top: -10px;
+}
+
+.nike h4 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: -67px;
+}
+
+.nike h6 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.nike p {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: -30px;
+}
+
+.tenis-nike:hover {
+  width: 378.67px;
+  height: 284px;
+  margin-left: -30px;
+  margin-top: -10px;
+  transform: translateY(-7px);
+  transition: 0.8s linear;
+}
+
+.tenis-adidas:hover {
+  width: 378.67px;
+  height: 284px;
+  margin-left: -30px;
+  margin-top: -30px;
+  transform: translateY(-7px);
+  transition: 0.8s linear;
+}
+
+.tenis-new:hover {
+  width: 378.67px;
+  height: 284px;
+  margin-left: -30px;
+  margin-top: -50px;
+  transform: translateY(-7px);
+  transition: 0.8s linear;
+}
+
+.tenis-puma:hover {
+  width: 378.67px;
+  height: 284px;
+  margin-left: -30px;
+  margin-top: -50px;
+  transform: translateY(-7px);
+  transition: 0.8s linear;
+}
+
+.espaço-grid {
+  width: 92.81%;
+  height: 26.38%;
+  background-color: #ED0000;
+}
+
+.outfit {
+  margin-top: 220px;
+}
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  margin-left: 8.5%;
+  margin-top: -650px;
+}
+
+.div1 {
+  grid-area: 2 / 1 / 6 / 3;
+  margin-top: 51px;
+}
+
+.div1:hover img {
+  grid-area: 2 / 1 / 6 / 3;
+  transform: scale(1.01);
+  transition: 0.4s ease;
+}
+
+.div2 {
+  grid-area: 2 / 3 / 4 / 5;
+  margin-left: 33.5%;
+}
+
+.div2:hover img {
+  grid-area: 2 / 3 / 4 / 5;
+  transform: scale(1.01);
+  transition: 0.4s ease;
+}
+
+.div3 {
+  grid-area: 4 / 3 / 6 / 5;
+  margin-left: 33.5%;
+}
+
+.div3:hover img {
+  grid-area: 4 / 3 / 6 / 5;
+  transform: scale(1.01);
+  transition: 0.4s ease;
+}
+
+.div4 {
+  grid-area: 2 / 5 / 4 / 7;
+  margin-left: 30.7%;
+}
+
+.div4:hover img {
+  grid-area: 2 / 5 / 4 / 7;
+  transform: scale(1.01);
+  transition: 0.4s ease;
+}
+
+.div5 {
+  grid-area: 4 / 5 / 6 / 7;
+  margin-left: 30.7%;
+}
+
+.div5:hover img {
+  grid-area: 4 / 5 / 6 / 7;
+  transform: scale(1.01);
+  transition: 0.4s ease;
+}
+
+.marcas {
+  background-color: transparent;
+  margin-top: 150px;
+  display: flex;
+  max-width: 1600px;
+}
+
+.jordan {
+  width: 12%;
+  height: 148px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.svg-jordan {
+  width: 81px;
+  height: 81px;
+  margin-top: 30px;
+}
+
+.jordan:hover>img {
+  width: 85px;
+  height: 85px;
+  transition: 0.2s ease-in-out;
+}
+
+.nike2 {
+  width: 12%;
+  height: 148px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.svg-nike {
+  width: 81px;
+  height: 81px;
+  margin-top: 35px;
+}
+
+.nike2:hover>img {
+  width: 85px;
+  height: 85px;
+  transition: 0.2s ease-in-out;
+}
+
+.adidas2 {
+  width: 12%;
+  height: 148px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.svg-adidas {
+  width: 81px;
+  height: 81px;
+  margin-top: 35px;
+}
+
+.adidas2:hover>img {
+  width: 85px;
+  height: 85px;
+  transition: 0.2s ease-in-out;
+}
+
+.asics {
+  width: 12%;
+  height: 148px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.svg-asics {
+  width: 81px;
+  height: 81px;
+  margin-top: 35px;
+}
+
+.asics:hover>img {
+  width: 85px;
+  height: 85px;
+  transition: 0.2s ease-in-out;
+}
+
+.converse {
+  width: 12%;
+  height: 148px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.svg-converse {
+  width: 81px;
+  height: 81px;
+  margin-top: 35px;
+}
+
+.converse:hover>img {
+  width: 85px;
+  height: 85px;
+  transition: 0.2s ease-in-out;
+}
+
+.crocs {
+  width: 12%;
+  height: 148px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.svg-crocs {
+  width: 81px;
+  height: 81px;
+  margin-top: 35px;
+}
+
+.crocs:hover>img {
+  width: 85px;
+  height: 85px;
+  transition: 0.2s ease-in-out;
+}
+
+.nb {
+  width: 12%;
+  height: 148px;
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.svg-new {
+  width: 81px;
+  height: 81px;
+  margin-top: 35px;
+}
+
+.nb:hover>img {
+  width: 85px;
+  height: 85px;
+  transition: 0.2s ease-in-out;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #DCD0C0;
+  color: #3A332D;
+  font-size: 14px;
+  margin-top: 60px;
+  font-family: "Rubik", sans-serif;
+
+}
+
+.carrossel {
+  max-width: 100%px;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.carrossel-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.carrossel-buttons button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 32px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+@media (max-width:550px) {
+
+  body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 2200px;
+    background-color: #ffffff;
+  }
+
+  .header-pequeno h2 {
+    font-size: 10px;
+    color: #3A332D;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    margin-left: 5px;
+  }
+
+  .header-pequeno p {
+    font-size: 10px;
+    color: #3A332D;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    margin-right: 5px;
+  }
+
+  .parte-cima h2 {
+    font-family: "Rubik Glitch", system-ui;
+    margin-top: 15px;
+    padding-top: 15px;
+    color: #3A332D;
+    text-align: center;
+
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #eee8e1;
+    border-radius: 4px;
+    padding: 0 8px;
+    width: 87px;
+    height: 20px;
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+    margin-left: 68%;
+    position: relative;
+    top: -43px;
+
+  }
+
+  .icon-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    top: -70px;
+    margin-left: 83.5%;
+  }
+
+  .icon-container svg {
+    width: 15px;
+    height: 15px;
+    fill: none;
+    stroke: #333;
+    stroke-width: 2;
+    cursor: pointer;
+    transition: stroke 0.3s;
+  }
+
+
+  .menu-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color 0.3s;
+    margin-top: -74px;
+    height: 20px;
+  }
+
+  .header-red {
+    background-color: #E80000;
+    width: 100%;
+    height: 41px;
+    display: flex;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+    justify-content: center;
+  }
+
+  .header-red p {
+    margin-top: 13px;
+    margin-right: 210px;
+  }
+
+
+  .compre-agora {
+    margin-top: 13px;
+    text-decoration: underline;
+  }
+
+  .carrossel-buttons button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 23px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .retangulo-tenis {
+    height: 30%;
+    background-color: transparent;
+    margin-left: 0px;
+    margin-top: 80.5px;
+    display: flex;
+  }
+
+  .puma {
+    width: 24%;
+    height: 208.5px;
+    background-color: #C45E5E;
+  }
+
+  .tenis-puma {
+    width: 170px;
+    height: 284px;
+    margin-left: -19px;
+    margin-top: -50px;
+  }
+
+  .logo {
+    margin-left: 3px;
+    width: 40px;
+  }
+
+  .puma h4 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -70px;
+  }
+
+  .puma h6 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -15px;
+
+  }
+
+  .puma p {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -30px;
+  }
+
+  .new-balance {
+    width: 88%;
+    height: 208.5px;
+    background-color: #D5CEBA;
+
+  }
+
+  .tenis-new {
+    width: 170px;
+    height: 284px;
+    margin-left: -17px;
+    margin-top: -50px;
+  }
+
+  .new-balance h4 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -63px;
+  }
+
+  .new-balance h6 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -15px;
+  }
+
+  .new-balance p {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -30px;
+  }
+
+  .adidas {
+    width: 79%;
+    height: 208.5px;
+    background-color: #CFB3A8;
+    margin-left: 17px;
+  }
+
+  .tenis-adidas {
+    width: 170px;
+    height: 284px;
+    margin-left: -20px;
+    margin-top: -45px;
+  }
+
+  .adidas h4 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -63px;
+  }
+
+  .adidas h6 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -15px;
+  }
+
+  .adidas p {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -30px;
+  }
+
+  .nike {
+    width: 79%;
+    height: 208.5px;
+    background-color: #D3D4C7;
+    margin-left: 18px;
+  }
+
+  .tenis-nike {
+    width: 170px;
+    height: 284px;
+    margin-left: -18px;
+    margin-top: -35px;
+  }
+
+  .nike h4 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -63px;
+  }
+
+  .nike h6 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -15px;
+  }
+
+  .nike p {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -30px;
+  }
+
+  .tenis-nike:hover {
+    width: 170px;
+    height: 284px;
+    margin-left: -18px;
+    margin-top: -35px;
+    transform: translateY(-7px);
+    transition: 0.8s linear;
+  }
+
+  .tenis-adidas:hover {
+    width: 170px;
+    height: 284px;
+    margin-left: -20px;
+    margin-top: -45px;
+    transform: translateY(-7px);
+    transition: 0.8s linear;
+  }
+
+  .tenis-new:hover {
+    width: 170px;
+    height: 284px;
+    margin-left: -17px;
+    margin-top: -50px;
+    transform: translateY(-7px);
+    transition: 0.8s linear;
+  }
+
+  .tenis-puma:hover {
+    width: 170px;
+    height: 284px;
+    margin-left: -19px;
+    margin-top: -50px;
+    transform: translateY(-7px);
+    transition: 0.8s linear;
+  }
+
+  .marcas {
+    background-color: transparent;
+    margin-top: 150px;
+    display: flex;
+    max-width: 1600px;
+  }
+
+  .jordan {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-jordan {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .jordan:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .nike2 {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-nike {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 8px;
+  }
+
+  .nike2:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .adidas2 {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-adidas {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .adidas2:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .asics {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-asics {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .asics:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .converse {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-converse {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .converse:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .crocs {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-crocs {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .crocs:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .nb {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-new {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .nb:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 1100px) {
+
+  body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #ffffff;
+
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #eee8e1;
+    border-radius: 4px;
+    padding: 0 8px;
+    width: 85px;
+    height: 20px;
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+    margin-left: 68%;
+    position: relative;
+    top: -44px;
+
+  }
+
+
+  .icon-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    top: -70px;
+    margin-left: 83.5%;
+  }
+
+  .icon-container svg {
+    width: 15px;
+    height: 15px;
+    fill: none;
+    stroke: #333;
+    stroke-width: 2;
+    cursor: pointer;
+    transition: stroke 0.3s;
+  }
+
+  .header-pequeno h2 {
+    font-size: 10px;
+    color: #3A332D;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    margin-left: 5px;
+  }
+
+  .header-pequeno p {
+    font-size: 10px;
+    color: #3A332D;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    margin-right: 5px;
+  }
+
+  .menu-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: color 0.3s;
+    margin-top: -74px;
+    height: 20px;
+  }
+
+  .header-red {
+    background-color: #E80000;
+    width: 100%;
+    height: 41px;
+    display: flex;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    justify-content: center;
+  }
+
+
+  .header-red p {
+    margin-top: 13px;
+    margin-right: 205px;
+  }
+
+  .compre-agora {
+    margin-top: 13px;
+    text-decoration: underline;
+  }
+
+  .puma {
+    width: 24%;
+    height: 208.5px;
+    background-color: #C45E5E;
+  }
+
+  .tenis-puma {
+    width: 170px;
+    height: 284px;
+    margin-left: -19px;
+    margin-top: -50px;
+  }
+
+  .logo {
+    margin-left: 3px;
+    width: 40px;
+  }
+
+  .puma h4 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -70px;
+  }
+
+  .puma h6 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -15px;
+  }
+
+  .puma p {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -30px;
+  }
+
+  .new-balance {
+    width: 88%;
+    height: 208.5px;
+    background-color: #D5CEBA;
+    margin-left: 2px;
+  }
+
+  .tenis-new {
+    width: 170px;
+    height: 284px;
+    margin-left: -17px;
+    margin-top: -50px;
+  }
+
+  .new-balance h4 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -63px;
+  }
+
+  .new-balance h6 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -15px;
+  }
+
+  .new-balance p {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -30px;
+  }
+
+  .adidas {
+    width: 79%;
+    height: 208.5px;
+    background-color: #CFB3A8;
+    margin-left: 21px;
+  }
+
+  .tenis-adidas {
+    width: 170px;
+    height: 284px;
+    margin-left: -20px;
+    margin-top: -45px;
+  }
+
+  .adidas h4 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -63px;
+  }
+
+  .adidas h6 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -15px;
+  }
+
+  .adidas p {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -30px;
+  }
+
+  .nike {
+    width: 79%;
+    height: 208.5px;
+    background-color: #D3D4C7;
+    margin-left: 22.4px;
+  }
+
+  .tenis-nike {
+    width: 162px;
+    height: 284px;
+    margin-left: -18px;
+    margin-top: -35px;
+  }
+
+  .nike h4 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -63px;
+  }
+
+  .nike h6 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -15px;
+  }
+
+  .nike p {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -30px;
+  }
+
+  .tenis-nike:hover {
+    width: 162px;
+    height: 284px;
+    margin-left: -18px;
+    margin-top: -35px;
+    transform: translateY(-7px);
+    transition: 0.8s linear;
+  }
+
+  .tenis-adidas:hover {
+    width: 170px;
+    height: 284px;
+    margin-left: -20px;
+    margin-top: -45px;
+    transform: translateY(-7px);
+    transition: 0.8s linear;
+  }
+
+  .tenis-new:hover {
+    width: 170px;
+    height: 284px;
+    margin-left: -17px;
+    margin-top: -50px;
+    transform: translateY(-7px);
+    transition: 0.8s linear;
+  }
+
+  .tenis-puma:hover {
+    width: 170px;
+    height: 284px;
+    margin-left: -19px;
+    margin-top: -50px;
+    transform: translateY(-7px);
+    transition: 0.8s linear;
+  }
+
+  .marcas {
+    background-color: transparent;
+    margin-top: 150px;
+    display: flex;
+    max-width: 1600px;
+  }
+
+  .jordan {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-jordan {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .jordan:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .nike2 {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-nike {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 8px;
+  }
+
+  .nike2:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .adidas2 {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-adidas {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .adidas2:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .asics {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-asics {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .asics:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .converse {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-converse {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .converse:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .crocs {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-crocs {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .crocs:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .nb {
+    width: 67px;
+    height: 67px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .svg-new {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .nb:hover>img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+@media (min-width:1100px) {
+
+  body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #ffffff;
+
+  }
+
+  .header-pequeno h2 {
+    font-size: 15px;
+    color: #3A332D;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    margin-left: 5px;
+  }
+
+  .header-pequeno p {
+    font-size: 15px;
+    color: #3A332D;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    margin-right: 5px;
+  }
+
+  .parte-cima h2 {
+    font-family: "Rubik Glitch", system-ui;
+    margin-top: 15px;
+    padding-top: 15px;
+    color: #3A332D;
+    text-align: center;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #eee8e1;
+    border-radius: 4px;
+    padding: 0 8px;
+    width: 170px;
+    height: 25px;
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+    margin-left: 68%;
+    position: relative;
+    top: -46px;
+
+  }
+
+  .icon-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    top: -82px;
+    margin-left: 85.5%;
+  }
+
+  .icon-container svg {
+    width: 25px;
+    height: 25px;
+    fill: none;
+    stroke: #333;
+    stroke-width: 2;
+    cursor: pointer;
+    transition: stroke 0.3s;
+  }
+
+  .menu-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: color 0.3s;
+    margin-top: -74px;
+    height: 20px;
+  }
+}

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Vinyl&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Roupas | Sneaker Lab</title>
+    <link rel="stylesheet" href="roupas.css">
+</head>
+
+<body>
+
+    <div class="header-pequeno">
+        <h2>Sneaker Lab: Sua loja de tênis, Roupas e Acessórios</h2>
+        <p>Apresentando produtos disponíveis para todas as regiões</p>
+    </div>
+    <header class="header-normal">
+        <div class="parte-cima">
+            <div>
+                <h2>SNEAKER LAB</h2>
+            </div>
+            <div class="search-bar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M15.5 14h-.79l-.28-.27a6.471 6.471 0 001.48-5.34C15.01 5.59 12.42 3 9.25 3S3.5 5.59 3.5 8.75 6.09 14.5 9.25 14.5c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.5 19l-5-5zm-6.25 0C7.01 14 5 11.99 5 9.75S7.01 5.5 9.25 5.5 13.5 7.51 13.5 9.75 11.49 14 9.25 14z" />
+                </svg>
+                <input type="text" placeholder="Encontre na Sneaker Lab">
+            </div>
+        </div>
+        <div class="icon-container">
+            <!-- Ícone de Usuário -->
+            <a href="perfil.html">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <circle cx="12" cy="8" r="4" />
+                    <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+                </svg>
+            </a>
+
+            <!-- Ícone de Coração -->
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12 21s-8-6-8-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5-8 11-8 11z" />
+                </svg>
+            </a>
+
+            <!-- Ícone de Carrinho -->
+            <a href="carrinho.html">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <circle cx="9" cy="21" r="1" />
+                    <circle cx="20" cy="21" r="1" />
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                </svg>
+            </a>
+        </div>
+        <nav>
+            <a href="index.html" class="menu-link">Início</a>
+            <a href="tenis.html" class="menu-link">Tênis</a>
+            <a href="roupas.html" id="active" class="menu-link">Roupas</a>
+            <a href="calcados.html" class="menu-link">Calçados</a>
+            <a href="sobre.html" class="menu-link">Sobre</a>
+            <a href="contato.html" class="menu-link">Contato</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="hero">
+            <h1>ROUPAS</h1>
+            <p>
+                Camisetas com presença, moletons pesados e acessórios chave tudo na medida certa pra quem respira rua e
+                vive o corre com o drip em dia. </p>
+        </section>
+        <section class="products">
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="575759-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Calça Nike Nocta <br> Unissex</h3>
+                <p class="brand">NIKE</p>
+                <p class="price">R$ 617,49 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Calça Nike Nocta',617.99,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="579566-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Camiseta Vans Road Stop SS Masculina</h3>
+                <p class="brand">VANS</p>
+                <p class="price">R$ 161,49 no pix à vista</p>
+                <button class="add-cart-btn"
+                    onclick="addToCart('Camiseta Vans Road Stop SS Masculina',161.49,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="579526-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Shorts Vans Mte Trek Guide Masculino</h3>
+                <p class="brand">VANS</p>
+                <p class="price">R$ 427,49 no pix à vista</p>
+                <button class="add-cart-btn"
+                    onclick="addToCart('Shorts Vans Mte Trek Guide Masculino',427.49,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="569851-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Regata Umbro Ribbed Vest Top X Boiler Feminina</h3>
+                <p class="brand">UMBRO</p>
+                <p class="price">R$ 180,49 no pix à vista</p>
+                <button class="add-cart-btn"
+                    onclick="addToCart('Regata Umbro Ribbed Vest Top X Boiler Feminina',180.49,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">>
+                    <img src="576747-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Regata adidas Crazylite Masculina</h3>
+                <p class="brand">ADIDAS</p>
+                <p class="price">R$ 218,49 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Regata adidas Crazylite Masculina',218.49,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="574672-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Jaqueta adidas <br> Masculina</h3>
+                <p class="brand">ADIDAS</p>
+                <p class="price">R$ 759,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Jaqueta adidas Masculina',759.99,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="575061-1200-auto 1.png" alt=" " />
+                </a>
+                <h3>Camisa adidas Manchester United 3 Masculina</h3>
+                <p class="brand">ADIDAS</p>
+                <p class="price">R$ 284,99 no pix à vista</p>
+                <button class="add-cart-btn"
+                    onclick="addToCart('Camisa adidas Manchester United 3 Masculina',284.99,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="545908-1200-auto 1.png" alt="" />
+                </a>
+                <h3> Camisa Mitchell & Ness Favre Masculina</h3>
+                <p class="brand">MITCHELL AND NESS</p>
+                <p class="price">R$ 104 ,49 no pix à vista</p>
+                <button class="add-cart-btn"
+                    onclick="addToCart('Camisa Mitchell & Ness Favre Masculina',104.49,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="552135-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Camisa adidas Arsenal 3 Masculina</h3>
+                <p class="brand">ADIDAS</p>
+                <p class="price">R$ 303,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Camisa adidas Arsenal 3 Masculina',303.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="536046-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Jaqueta New Balance Feminina</h3>
+                <p class="brand">NEW BALANCE</p>
+                <p class="price">R$ 569 ,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Jaqueta New Balance Feminina',569.99,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="578808-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Blusão adidas <br> Unissex</h3>
+                <p class="brand">ADIDAS</p>
+                <p class="price">R$ 379,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão adidas Unissex',379.99,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="574846-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Calça adidas <br> Masculina</h3>
+                <p class="brand">ADIDAS</p>
+                <p class="price">R$ 664,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Calça adidas Masculina',664.99,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="581171-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Shorts New Balance Athletics Masculino</h3>
+                <p class="brand">NEW BALANCE</p>
+                <p class="price">R$ 256,49 no pix à vista</p>
+                <button class="add-cart-btn"
+                    onclick="addToCart('Shorts New Balance Athletics Masculino',256.49,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="574145-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Jaqueta Puma X Teenage Mutant Ninja Turtle P R Masculina</h3>
+                <p class="brand">PUMA</p>
+                <p class="price">R$ 1.139,99 no pix à vista</p>
+                <button class="add-cart-btn"
+                    onclick="addToCart('Jaqueta Puma X Teenage Mutant Ninja Turtle P R Masculina',1139.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="555431-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Camisa Umbro X Podpah Jersey Stripes Unissex</h3>
+                <p class="brand">UMBRO</p>
+                <p class="price">R$ 313,49 no pix à vista</p>
+                <button class="add-cart-btn"
+                    onclick="addToCart('Camisa Umbro X Podpah Jersey Stripes Unissex',313.49,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="574139-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Blusão Puma X Teenage Mutant Ninja Turtles Masculino</h3>
+                <p class="brand">PUMA</p>
+                <p class="price">R$ 712,49 no pix à vista</p>
+                <button class="add-cart-btn"
+                    onclick="addToCart('Blusão Puma X Teenage Mutant Ninja Turtles Masculino',712.49,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="552482-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Calça adidas <br>NSRC</h3>
+                <p class="brand">ADIDAS</p>
+                <p class="price">R$ 284,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Calça adidas NSRC',284.99,)">Adicionar ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="581259-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Macacão Nike Essentials Infantil</h3>
+                <p class="brand">NIKE</p>
+                <p class="price">R$ 189,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Macacão Nike Essentials Infantil',189.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="578673-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Camiseta Nike KD M90 Masculina</h3>
+                <p class="brand">NIKE</p>
+                <p class="price">R$ 284,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Camiseta Nike KD M90 Masculina',284.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="579207-1200-auto 1.png" alt="" />
+                </a>
+                <h3>Jaqueta Jordan Draft Masculina</h3>
+                <p class="brand">JORDAN</p>
+                <p class="price">R$ 617,49 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Jaqueta Jordan Draft Masculina',617.49,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Sneaker Lab — Onde o estilo pisa firme.
+    </footer>
+
+
+    <script>
+        function addToCart(name, price, image) {
+            let cart = JSON.parse(localStorage.getItem("cart")) || [];
+            let existing = cart.find(item => item.name === name);
+            if (existing) {
+                existing.qty += 1;
+            } else {
+                cart.push({ name, price, image, qty: 1 });
+            }
+
+            localStorage.setItem("cart", JSON.stringify(cart));
+            alert(name + " foi adicionado ao carrinho!");
+        }
+    </script>
+</body>
+
+</html>

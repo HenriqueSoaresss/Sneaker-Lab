@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Vinyl&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blusões | Sneaker Lab</title>
+    <link rel="stylesheet" href="blusoes.css">
+</head>
+
+<body>
+    <div class="header-pequeno">
+        <h2>Sneaker Lab: Sua loja de tênis, Roupas e Acessórios</h2>
+        <p>Apresentando produtos disponíveis para todas as regiões</p>
+    </div>
+    <header class="header-normal">
+        <div class="parte-cima">
+            <div>
+                <h2>SNEAKER LAB</h2>
+            </div>
+            <div class="search-bar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M15.5 14h-.79l-.28-.27a6.471 6.471 0 001.48-5.34C15.01 5.59 12.42 3 9.25 3S3.5 5.59 3.5 8.75 6.09 14.5 9.25 14.5c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.5 19l-5-5zm-6.25 0C7.01 14 5 11.99 5 9.75S7.01 5.5 9.25 5.5 13.5 7.51 13.5 9.75 11.49 14 9.25 14z" />
+                </svg>
+                <input type="text" placeholder="Encontre na Sneaker Lab">
+            </div>
+        </div>
+        <div class="icon-container">
+            <!-- Ícone de Usuário -->
+            <a href="perfil.html">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <circle cx="12" cy="8" r="4" />
+                    <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+                </svg>
+            </a>
+
+            <!-- Ícone de Coração -->
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12 21s-8-6-8-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5-8 11-8 11z" />
+                </svg>
+            </a>
+
+            <!-- Ícone de Carrinho -->
+            <a href="carrinho.html">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <circle cx="9" cy="21" r="1" />
+                    <circle cx="20" cy="21" r="1" />
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                </svg>
+            </a>
+        </div>
+        <nav>
+            <a href="index.html" class="menu-link">Início</a>
+            <a href="tenis.html" class="menu-link">Tênis</a>
+            <a href="roupas.html" class="menu-link">Roupas</a>
+            <a href="calcados.html" class="menu-link">Calçados</a>
+            <a href="sobre.html" class="menu-link">Sobre</a>
+            <a href="contato.html" class="menu-link">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>BLUSÕES</h1>
+            <p>
+                Blusões Masculinos das marcas mais hypadas para compor um visual cheio de estilo e atitude!
+            </p>
+        </section>
+
+        <section class="products">
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="576321-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão Jordan Brooklin Fleece Masculino</h3>
+                <p class="brand">JORDAN</p>
+                <p class="price">R$ 379,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão Jordan Brooklin Fleece Masculino',379.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="572187-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão Jordan Masculino</h3>
+                <p class="brand">JORDAN</p>
+                <p class="price">R$ 427,49 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão Jordan Masculino',427.49,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="575053-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão adidas <br> Masculina</h3>
+                <p class="brand">ADIDAS</p>
+                <p class="price">R$ 474,49 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão adidas Masculina',474.49,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="582385-1200-auto.webp" alt="" />
+                </a>
+                <h3>Casaco New Balance Essentials Masculino</h3>
+                <p class="brand">NEW BALANCE</p>
+                <p class="price">R$ 284,49 no pix à vista</p>
+                <button class="add-cart-btn"
+                    onclick="addToCart('Casaco New Balance Essentials Masculino',284.49,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="576185-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão adidas Believe That Anthony Edwards Masculino</h3>
+                <p class="brand">ADIDAS</p>
+                <p class="price">R$ 474,99 no pix à vista</p>
+                <button class="add-cart-btn"
+                    onclick="addToCart('Blusão adidas Believe That Anthony Edwards Masculino',474.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="569840-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão Umbro Hood X Boiler Masculino</h3>
+                <p class="brand">UMBRO</p>
+                <p class="price">R$ 569,49 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão Umbro Hood X Boiler Masculino',569.49,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="575211-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão Jordan Psg Masculina </h3>
+                <p class="brand">JORDAN</p>
+                <p class="price">R$ 370,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão Jordan Psg Masculina',370.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="552088-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão Vans Classic Masculino</h3>
+                <p class="brand">VNAS</p>
+                <p class="price">R$ 246,49 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão Vans Classic Masculino',246.49,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="538266-1200-auto.webp" alt=" " />
+                </a>
+                <h3>Blusão New Balance Essentials Basic Masculino</h3>
+                <p class="brand">NEW BALANCE</p>
+                <p class="price">R$ 189,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão New Balance Essentials Basic Masculino',189.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="530800-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão New Balance Small Masculina</h3>
+                <p class="brand">NEW BALANCE</p>
+                <p class="price">R$ 284,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão New Balance Small Masculina',284.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="508251-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão Puma X One Piece Tr Masculina</h3>
+                <p class="brand">PUMA</p>
+                <p class="price">R$ 313,99 no pix à vista</p>
+                <button class="add-cart-btn"
+                    onclick="addToCart('Blusão Puma X One Piece Tr Masculina',313.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="507997-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão Puma X Staple Tr</h3>
+                <p class="brand">PUMA</p>
+                <p class="price">R$ 379,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão Puma X Staple Tr',379.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="502820-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão Jordan HBR Masculina</h3>
+                <p class="brand">JORDAN</p>
+                <p class="price">R$ 237,49 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão Jordan HBR Masculina',237.49,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="576327-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão Jordan Brooklin Fleece Masculina</h3>
+                <p class="brand">JORDAN</p>
+                <p class="price">R$ 360,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão Jordan Brooklin Fleece Masculina',360.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="576331-1200-auto.webp" alt=" " />
+                </a>
+                <h3>Blusão Jordan Brooklin Fleece Masculino</h3>
+                <p class="brand">JORDAN</p>
+                <p class="price">R$ 379,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão Jordan Brooklin Fleece Masculino',379.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="575885-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão adidas Crewneck Unissex</h3>
+                <p class="brand">ADIDAS</p>
+                <p class="price">R$ 379,49 no pix à vista</p>
+                <button class="add-cart-btn"
+                    onclick="addToCart('Blusão adidas Crewneck Unissex',379.49,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="571374-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão adidas Mock Neck Unissex</h3>
+                <p class="brand">ADIDAS</p>
+                <p class="price">R$ 246,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão adidas Mock Neck Unissex',246.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="544172-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão Vans Global Line Loose Po Masculina</h3>
+                <p class="brand">VANS</p>
+                <p class="price">R$ 351,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão Vans Global Line Loose Po Masculina',351.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="507426-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão New Balance Masculino</h3>
+                <p class="brand">NEW BALANCE</p>
+                <p class="price">R$ 218,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão New Balance Masculino',218.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+            <div class="product">
+                <a href="paginaProdutos.html">
+                    <img src="508072-1200-auto.webp" alt="" />
+                </a>
+                <h3>Blusão Jordan Essentials Masculina</h3>
+                <p class="brand">JORDAN</p>
+                <p class="price">R$ 208,99 no pix à vista</p>
+                <button class="add-cart-btn" onclick="addToCart('Blusão Jordan Essentials Masculina',208.99,)">Adicionar
+                    ao
+                    Carrinho
+                </button>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Sneaker Lab — Onde o estilo pisa firme.
+    </footer>
+    <script>
+        function addToCart(name, price, image) {
+            let cart = JSON.parse(localStorage.getItem("cart")) || [];
+            let existing = cart.find(item => item.name === name);
+            if (existing) {
+                existing.qty += 1;
+            } else {
+                cart.push({ name, price, image, qty: 1 });
+            }
+
+            localStorage.setItem("cart", JSON.stringify(cart));
+            alert(name + " foi adicionado ao carrinho!");
+        }
+    </script>
+</body>
+
+</html>

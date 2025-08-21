@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Vinyl&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Início | Sneaker Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header-pequeno">
+        <h2>Sneaker Lab: Sua loja de tênis, Roupas e Acessórios</h2>
+        <p>Apresentando produtos disponíveis para todas as regiões</p>
+    </div>
+    <header class="header-normal">
+        <div class="parte-cima">
+            <div>
+                <h2>SNEAKER LAB</h2>
+            </div>
+            <div class="search-bar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M15.5 14h-.79l-.28-.27a6.471 6.471 0 001.48-5.34C15.01 5.59 12.42 3 9.25 3S3.5 5.59 3.5 8.75 6.09 14.5 9.25 14.5c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 5L20.5 19l-5-5zm-6.25 0C7.01 14 5 11.99 5 9.75S7.01 5.5 9.25 5.5 13.5 7.51 13.5 9.75 11.49 14 9.25 14z" />
+                </svg>
+                <input type="text" placeholder="Encontre na Sneaker Lab">
+            </div>
+        </div>
+        <div class="icon-container">
+            <!-- Ícone de Usuário -->
+            <a href="perfil.html">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <circle cx="12" cy="8" r="4" />
+                    <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+                </svg>
+            </a>
+
+            <!-- Ícone de Coração -->
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12 21s-8-6-8-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5-8 11-8 11z" />
+                </svg>
+            </a>
+
+            <!-- Ícone de Carrinho -->
+            <a href="carrinho.html">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <circle cx="9" cy="21" r="1" />
+                    <circle cx="20" cy="21" r="1" />
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                </svg>
+            </a>
+        </div>
+        <nav>
+            <a href="index.html" id="active" class="menu-link">Início</a>
+            <a href="tenis.html" class="menu-link">Tênis</a>
+            <a href="roupas.html" class="menu-link">Roupas</a>
+            <a href="calcados.html" class="menu-link">Calçados</a>
+            <a href="sobre.html" class="menu-link">Sobre</a>
+            <a href="contato.html" class="menu-link">Contato</a>
+
+        </nav>
+    </header>
+    <div class="header-red">
+        <p><strong class="strong">SALE </strong>PRODUTOS COM <strong class="strong">DESCONTO</strong></p>
+        <strong class="compre-agora">COMPRE AGORA</strong>
+    </div>
+    <div class="carrossel">
+        <div class="slides" id="slides">
+            <div class="slide">
+                <a href="tenis.html">
+                    <img src="Apresentação1.png" alt="Sneaker 1" />
+                </a>
+            </div>
+            <div class="slide">
+                <a href="tenis.html">
+                    <img src="promo-adidas.webp" alt="Sneaker 2" />
+                </a>
+            </div>
+            <div class="slide">
+                <a href="">
+                    <img src="testee.webp" alt="Sneaker 3" />
+                </a>
+            </div>
+        </div>
+        <div class="carrossel-buttons">
+            <button onclick="prevSlide()"><</button>
+                    <button onclick="nextSlide()">></button>
+        </div>
+    </div>
+    <script>
+        const slides = document.getElementById('slides');
+        let index = 0;
+
+        function showSlide(i) {
+            const total = slides.children.length;
+            index = (i + total) % total;
+            slides.style.transform = `translateX(${-index * 100}%)`;
+        }
+
+        function nextSlide() {
+            showSlide(index + 1);
+        }
+
+        function prevSlide() {
+            showSlide(index - 1);
+        }
+    </script>
+    <div class="divisao">
+    </div>
+    <div class="div-cinza">
+        <h2>Drops disponíveis</h2>
+        <div class="retangulo-tenis">
+            <div class="puma">
+                <img class="logo" src="download-removebg-preview 1.svg" alt="">
+                <a href="paginaProdutos.html">
+                    <img class="tenis-puma"
+                        src="4af446c5-a0ab-48a2-8fb9-b514c9ceb791___d3bb668d522ab281fde7ceda9d9b48a5 1.svg" alt="">
+                </a>
+                <h4>Tênis Puma La Francé
+                    <br>Amour Unissex
+                </h4>
+                <h6>R$ 899,99</h6>
+                <p>9X R$ 99,99</p>
+
+            </div>
+
+            <div class="retangulo-tenis2">
+                <div class="new-balance">
+                    <img class="logo" src="images-re    movebg-preview 1.svg" alt="">
+                    <a href="paginaProdutos.html">
+                        <img class="tenis-new"
+                            src="ddbc7b97-8250-4699-b860-3bf0a5f1bc49___667aa35f9883ad3e88856794dde2a099 1.svg" alt="">
+                    </a>
+                    <h4>
+                        Tênis New Balance 9060 <br>
+                        New Spruce Unissex
+                    </h4>
+                    <h6>R$ 899,99</h6>
+                    <p>9X R$ 99,99</p>
+                </div>
+            </div>
+            <div class="retangulo-tenis3">
+                <div class="adidas">
+                    <img class="logo" src="a78d1fd756892cac04888d067dd7a571-removebg-preview 1.svg" alt="">
+                    <a href="paginaProdutos.html">
+                        <img class="tenis-adidas"
+                            src="88e146a1-9f5f-44b2-b98e-47705a284557___7d7433cdf4a748c99f4bf0cf12661df4 1.svg" alt="">
+                    </a>
+                    <h4>
+                        Tênis adidas Handball <br>
+                        Spezial Unissex
+                    </h4>
+                    <h6>R$ 899,99</h6>
+                    <p>9X R$ 99,99</p>
+                </div>
+            </div>
+            <div class="retangulo-tenis4">
+                <div class="nike">
+                    <img class="logo" src="Logo_NIKE.svg 1.svg" alt="">
+                    <a href="paginaProdutos.html">
+                        <img class="tenis-nike"
+                            src="a32ae216-93d1-4367-93a3-f953830f376f___703bb30873226f7b24aeb5bd2f7386a0 1.svg" alt="">
+                    </a>
+                    <h4>
+                        Tênis Nike Air Force 1´ 07 <br>
+                        LE Masculino
+                    </h4>
+                    <h6>R$ 899,99</h6>
+                    <p>9X R$ 99,99</p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="div-branca">
+        <a href="">VER TODOS -></a>
+    </div>
+
+    <div class="espaço-grid">
+        <img class="outfit" src="Captura de tela 2025-07-23 172001.png" alt="">
+        <div class="parent">
+            <div class="div1"> <a href="tenis.html"> <img class="Image-1" src="Group 1.png" alt=""></a> </div>
+            <div class="div2"> <a href="blusoes.html"> <img src="Group 2.png" alt=""></a> </div>
+            <div class="div3"> <a href="camisas.html"> <img src="Group 3 (1).png" alt=""></a> </div>
+            <div class="div4"> <a href="acessorios.html"> <img src="Group 4.png" alt=""></a> </div>
+            <div class="div5"> <a href="calcados.html"> <img src="Group 5.png" alt=""></a> </div>
+        </div>
+    </div>
+
+    <div class="marcas">
+        <div class="jordan">
+            <img class="svg-jordan" src="jordan-svgrepo-com.svg" alt="">
+        </div>
+        <div class="nike2">
+            <img class="svg-nike" src="Logo_NIKE.svg 1.svg" alt="">
+        </div>
+        <div class="adidas2">
+            <img class="svg-adidas" src="a78d1fd756892cac04888d067dd7a571-removebg-preview 1.svg" alt="">
+        </div>
+        <div class="asics">
+            <img class="svg-asics" src="18f99da6-c6a9-49bb-b23c-af5c0ffefb19___3ec2205dca9a9cba1e3e1f0338258dfc 1.svg"
+                alt="">
+        </div>
+        <div class="converse">
+            <img class="svg-converse"
+                src="cd574a05-7fca-4c4d-8881-ae0b3a18160c___ae95315fd9633df7c01bd81477b9798a 1.svg" alt="">
+        </div>
+        <div class="crocs">
+            <img class="svg-crocs" src="46f19aad-ed1c-40fe-8f5d-368f6d419925___24e707d914c774d4bd88b31619fcaf90 1.svg"
+                alt="">
+        </div>
+        <div class="nb">
+            <img class="svg-new" src="images-removebg-preview 1.svg" alt="">
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Sneaker Lab — Onde o estilo pisa firme.
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,554 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 1000px;
+    background-color: #ffffff;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.header-pequeno {
+    width: 100%;
+    background-color: #DCD0C0;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-pequeno h2 {
+    font-size: 12px;
+    color: #3A332D;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    margin-left: 60px;
+}
+
+.header-pequeno p {
+    font-size: 12px;
+    color: #3A332D;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    margin-right: 56px;
+}
+
+.header-normal {
+    background-color: #FBF9F6;
+    width: 100%;
+    height: 126px;
+    margin-top: -15px;
+}
+
+
+.parte-cima h2 {
+    font-family: "Rubik Glitch", system-ui;
+    margin-top: 15px;
+    padding-top: 15px;
+    color: #3A332D;
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #eee8e1;
+    border-radius: 4px;
+    padding: 0 8px;
+    width: 170px;
+    height: 28px;
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+    margin-left: 77%;
+    position: relative;
+    top: -47px;
+
+}
+
+.search-bar input {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 11px;
+    color: #333;
+    width: 100%;
+    height: 100%;
+    line-height: 28px;
+
+}
+
+.search-bar svg {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    fill: #000;
+    flex-shrink: 0;
+}
+
+.icon-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    top: -80px;
+    margin-left: 90.9%;
+}
+
+.icon-container svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: #333;
+    stroke-width: 2;
+    cursor: pointer;
+    transition: stroke 0.3s;
+}
+
+.icon-container svg:hover {
+    fill: #E80000;
+    transition: 0.4s;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    font-family: "Rubik", sans-serif;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: color 0.3s;
+    margin-top: -74px;
+    height: 20px;
+}
+
+.menu-link:hover {
+    color: #E80000;
+}
+
+#active {
+    color: #E80000;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f7f3;
+    color: #000;
+}
+
+.topbar {
+    background-color: #d9cbb7;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    background-color: #f9f7f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    color: #2c2c2c;
+    text-shadow: 2px 2px #000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+
+.nav-links a.active {
+    color: red;
+}
+
+.contato-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    padding: 60px 5%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.formulario-contato {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.formulario-contato h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contato-form textarea {
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f7f3;
+}
+
+.contato-form input {
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f7f3;
+}
+
+.contato-form button {
+    background-color: red;
+    color: #fff;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contato-form button:hover {
+    background-color: darkred;
+}
+
+.info-contato {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.info-contato h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.info-contato p {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #DCD0C0;
+    color: #3A332D;
+    font-size: 14px;
+    margin-top: 60px;
+    font-family: "Rubik", sans-serif;
+}
+
+@media (max-width:550px) {
+    body {
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        height: 900px;
+        background-color: #ffffff;
+
+    }
+
+    .header-pequeno h2 {
+        font-size: 10px;
+        color: #3A332D;
+        font-family: "Rubik", sans-serif;
+        font-weight: 100;
+        margin-left: 5px;
+    }
+
+    .header-pequeno p {
+        font-size: 10px;
+        color: #3A332D;
+        font-family: "Rubik", sans-serif;
+        font-weight: 100;
+        margin-right: 5px;
+    }
+
+    .parte-cima h2 {
+        font-family: "Rubik Glitch", system-ui;
+        margin-top: 15px;
+        padding-top: 15px;
+        color: #3A332D;
+        text-align: center;
+
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        background-color: #eee8e1;
+        border-radius: 4px;
+        padding: 0 8px;
+        width: 87px;
+        height: 20px;
+        font-family: "Rubik", sans-serif;
+        box-sizing: border-box;
+        margin-left: 68%;
+        position: relative;
+        top: -43px;
+
+    }
+
+    .icon-container {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        padding: 10px;
+        position: relative;
+        top: -70px;
+        margin-left: 83.5%;
+    }
+
+    .icon-container svg {
+        width: 15px;
+        height: 15px;
+        fill: none;
+        stroke: #333;
+        stroke-width: 2;
+        cursor: pointer;
+        transition: stroke 0.3s;
+    }
+
+    .menu-link {
+        text-decoration: none;
+        color: black;
+        font-weight: 1000;
+        text-transform: uppercase;
+        font-size: 14px;
+        transition: color 0.3s;
+        margin-top: -74px;
+        height: 20px;
+    }
+
+    .formulario-contato {
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .info-contato {
+        background-color: #fff;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    }
+}
+
+@media (min-width: 550px) and (max-width: 1100px) {
+
+    body {
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        height: 900px;
+        background-color: #ffffff;
+
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        background-color: #eee8e1;
+        border-radius: 4px;
+        padding: 0 8px;
+        width: 85px;
+        height: 20px;
+        font-family: "Rubik", sans-serif;
+        box-sizing: border-box;
+        margin-left: 68%;
+        position: relative;
+        top: -44px;
+
+    }
+
+
+    .icon-container {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        padding: 10px;
+        position: relative;
+        top: -70px;
+        margin-left: 83.5%;
+    }
+
+    .icon-container svg {
+        width: 15px;
+        height: 15px;
+        fill: none;
+        stroke: #333;
+        stroke-width: 2;
+        cursor: pointer;
+        transition: stroke 0.3s;
+    }
+
+
+    .header-pequeno h2 {
+        font-size: 10px;
+        color: #3A332D;
+        font-family: "Rubik", sans-serif;
+        font-weight: 100;
+        margin-left: 5px;
+    }
+
+    .header-pequeno p {
+        font-size: 10px;
+        color: #3A332D;
+        font-family: "Rubik", sans-serif;
+        font-weight: 100;
+        margin-right: 5px;
+    }
+
+    .menu-link {
+        text-decoration: none;
+        color: black;
+        font-weight: 1000;
+        text-transform: uppercase;
+        font-size: 15px;
+        transition: color 0.3s;
+        margin-top: -74px;
+        height: 20px;
+    }
+
+    .formulario-contato {
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .info-contato {
+        background-color: #fff;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    }
+}
+
+@media (min-width:1100px) {
+
+    body {
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        height: 700px;
+        background-color: #ffffff;
+
+    }
+
+    .header-pequeno h2 {
+        font-size: 15px;
+        color: #3A332D;
+        font-family: "Rubik", sans-serif;
+        font-weight: 100;
+        margin-left: 5px;
+    }
+
+    .header-pequeno p {
+        font-size: 15px;
+        color: #3A332D;
+        font-family: "Rubik", sans-serif;
+        font-weight: 100;
+        margin-right: 5px;
+    }
+
+    .parte-cima h2 {
+        font-family: "Rubik Glitch", system-ui;
+        margin-top: 15px;
+        padding-top: 15px;
+        color: #3A332D;
+        text-align: center;
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        background-color: #eee8e1;
+        border-radius: 4px;
+        padding: 0 8px;
+        width: 170px;
+        height: 25px;
+        font-family: "Rubik", sans-serif;
+        box-sizing: border-box;
+        margin-left: 68%;
+        position: relative;
+        top: -46px;
+
+    }
+
+    .icon-container {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding: 10px;
+        position: relative;
+        top: -82px;
+        margin-left: 85.5%;
+    }
+
+    .icon-container svg {
+        width: 25px;
+        height: 25px;
+        fill: none;
+        stroke: #333;
+        stroke-width: 2;
+        cursor: pointer;
+        transition: stroke 0.3s;
+    }
+
+    .menu-link {
+        text-decoration: none;
+        color: black;
+        font-weight: 1000;
+        text-transform: uppercase;
+        font-size: 20px;
+        transition: color 0.3s;
+        margin-top: -74px;
+        height: 20px;
+    }
+}

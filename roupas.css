@@ -1,0 +1,534 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 3000px;
+    background-color: #ffffff;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.header-pequeno {
+    width: 100%;
+    background-color: #DCD0C0;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-pequeno h2 {
+    font-size: 12px;
+    color: #3A332D;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    margin-left: 60px;
+}
+
+.header-pequeno p {
+    font-size: 12px;
+    color: #3A332D;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    margin-right: 56px;
+}
+
+.header-normal {
+    background-color: #FBF9F6;
+    width: 100%;
+    height: 126px;
+    margin-top: -15px;
+}
+
+
+.parte-cima h2 {
+    font-family: "Rubik Glitch", system-ui;
+    margin-top: 15px;
+    padding-top: 15px;
+    color: #3A332D;
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #eee8e1;
+    border-radius: 4px;
+    padding: 0 8px;
+    width: 170px;
+    height: 28px;
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+    margin-left: 77%;
+    position: relative;
+    top: -47px;
+
+}
+
+.search-bar input {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 11px;
+    color: #333;
+    width: 100%;
+    height: 100%;
+    line-height: 28px;
+
+}
+
+.search-bar svg {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    fill: #000;
+    flex-shrink: 0;
+}
+
+.icon-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    top: -82px;
+    margin-left: 90.9%;
+}
+
+.icon-container svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: #333;
+    stroke-width: 2;
+    cursor: pointer;
+    transition: stroke 0.3s;
+}
+
+.icon-container svg:hover {
+    fill: #E80000;
+    transition: 0.4s;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    font-family: "Rubik", sans-serif;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: color 0.3s;
+    margin-top: -74px;
+    height: 20px;
+}
+
+.menu-link:hover {
+    color: #E80000;
+}
+
+#active {
+    color: #E80000;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.hero p {
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    margin-top: 40px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 40px 50px;
+    gap: 30px;
+}
+
+.product {
+    flex: calc(25% - 30px);
+    max-width: calc(25% - 30px);
+    text-align: left;
+}
+
+
+.product:hover {
+    flex: calc(25% - 30px);
+    max-width: calc(25% - 33px);
+    text-align: left;
+    border: 2px solid black;
+    transition: 0.3s;
+    transform: translateY(-3px);
+
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+
+}
+
+.product .brand {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+}
+
+.product .price {
+    font-weight: 800;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #DCD0C0;
+    color: #3A332D;
+    font-size: 14px;
+    margin-top: 60px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+@media (max-width:550px) {
+
+    body {
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        height: 2000px;
+        background-color: #ffffff;
+    }
+
+    .header-pequeno h2 {
+        font-size: 10px;
+        color: #3A332D;
+        font-family: "Rubik", sans-serif;
+        font-weight: 100;
+        margin-left: 5px;
+    }
+
+    .header-pequeno p {
+        font-size: 10px;
+        color: #3A332D;
+        font-family: "Rubik", sans-serif;
+        font-weight: 100;
+        margin-right: 5px;
+    }
+
+    .parte-cima h2 {
+        font-family: "Rubik Glitch", system-ui;
+        margin-top: 15px;
+        padding-top: 15px;
+        color: #3A332D;
+        text-align: center;
+
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        background-color: #eee8e1;
+        border-radius: 4px;
+        padding: 0 8px;
+        width: 87px;
+        height: 20px;
+        font-family: "Rubik", sans-serif;
+        box-sizing: border-box;
+        margin-left: 68%;
+        position: relative;
+        top: -43px;
+
+    }
+
+    .icon-container {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        padding: 10px;
+        position: relative;
+        top: -70px;
+        margin-left: 83.5%;
+    }
+
+    .icon-container svg {
+        width: 15px;
+        height: 15px;
+        fill: none;
+        stroke: #333;
+        stroke-width: 2;
+        cursor: pointer;
+        transition: stroke 0.3s;
+    }
+
+
+    .menu-link {
+        text-decoration: none;
+        color: black;
+        font-weight: 1000;
+        text-transform: uppercase;
+        font-size: 14px;
+        transition: color 0.3s;
+        margin-top: -74px;
+        height: 20px;
+    }
+
+    .product h3 {
+        font-size: 13px;
+        margin: 10px 0 5px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 800;
+
+    }
+
+    .product .brand {
+        color: #666;
+        font-size: 11px;
+        margin-bottom: 5px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+    }
+
+    .product .price {
+        font-weight: 800;
+        font-size: 13px;
+        font-family: "Rubik", sans-serif;
+
+    }
+}
+
+@media (min-width: 550px) and (max-width: 1100px) {
+
+    body {
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        height: 2000px;
+        background-color: #ffffff;
+
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        background-color: #eee8e1;
+        border-radius: 4px;
+        padding: 0 8px;
+        width: 85px;
+        height: 20px;
+        font-family: "Rubik", sans-serif;
+        box-sizing: border-box;
+        margin-left: 68%;
+        position: relative;
+        top: -44px;
+
+    }
+
+
+    .icon-container {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        padding: 10px;
+        position: relative;
+        top: -70px;
+        margin-left: 83.5%;
+    }
+
+    .icon-container svg {
+        width: 15px;
+        height: 15px;
+        fill: none;
+        stroke: #333;
+        stroke-width: 2;
+        cursor: pointer;
+        transition: stroke 0.3s;
+    }
+
+    .header-pequeno h2 {
+        font-size: 10px;
+        color: #3A332D;
+        font-family: "Rubik", sans-serif;
+        font-weight: 100;
+        margin-left: 5px;
+    }
+
+    .header-pequeno p {
+        font-size: 10px;
+        color: #3A332D;
+        font-family: "Rubik", sans-serif;
+        font-weight: 100;
+        margin-right: 5px;
+    }
+
+    .menu-link {
+        text-decoration: none;
+        color: black;
+        font-weight: 1000;
+        text-transform: uppercase;
+        font-size: 15px;
+        transition: color 0.3s;
+        margin-top: -74px;
+        height: 20px;
+    }
+
+    .product h3 {
+        font-size: 15px;
+        margin: 10px 0 5px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 800;
+
+    }
+
+    .product .brand {
+        color: #666;
+        font-size: 13px;
+        margin-bottom: 5px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+    }
+
+    .product .price {
+        font-weight: 800;
+        font-size: 15px;
+        font-family: "Rubik", sans-serif;
+
+    }
+}
+
+.add-cart-btn {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #E80000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-cart-btn:hover {
+    background-color: #c60000;
+}
+
+@media (min-width:1100px) {
+
+    body {
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        height: 2000px;
+        background-color: #ffffff;
+
+    }
+
+    .header-pequeno h2 {
+        font-size: 15px;
+        color: #3A332D;
+        font-family: "Rubik", sans-serif;
+        font-weight: 100;
+        margin-left: 5px;
+    }
+
+    .header-pequeno p {
+        font-size: 15px;
+        color: #3A332D;
+        font-family: "Rubik", sans-serif;
+        font-weight: 100;
+        margin-right: 5px;
+    }
+
+    .parte-cima h2 {
+        font-family: "Rubik Glitch", system-ui;
+        margin-top: 15px;
+        padding-top: 15px;
+        color: #3A332D;
+        text-align: center;
+    }
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        background-color: #eee8e1;
+        border-radius: 4px;
+        padding: 0 8px;
+        width: 170px;
+        height: 25px;
+        font-family: "Rubik", sans-serif;
+        box-sizing: border-box;
+        margin-left: 68%;
+        position: relative;
+        top: -46px;
+
+    }
+
+    .icon-container {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding: 10px;
+        position: relative;
+        top: -82px;
+        margin-left: 85.5%;
+    }
+
+    .icon-container svg {
+        width: 25px;
+        height: 25px;
+        fill: none;
+        stroke: #333;
+        stroke-width: 2;
+        cursor: pointer;
+        transition: stroke 0.3s;
+    }
+
+    .menu-link {
+        text-decoration: none;
+        color: black;
+        font-weight: 1000;
+        text-transform: uppercase;
+        font-size: 20px;
+        transition: color 0.3s;
+        margin-top: -74px;
+        height: 20px;
+    }
+}
